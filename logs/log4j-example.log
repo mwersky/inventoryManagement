@@ -1,0 +1,857 @@
+2021-01-10 01:52:43.788  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] c.p.i.App                                : Starting App on DESKTOP-KABRR1S with PID 5976 (C:\Users\dunge\eclipse-workspace\inventoryManagement\target\classes started by dunge in C:\Users\dunge\eclipse-workspace\inventoryManagement)
+2021-01-10 01:52:43.810  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@51b03e3d: startup date [Sun Jan 10 14:52:43 PST 2021]; root of context hierarchy
+2021-01-10 01:52:44.188  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2021-01-10 01:52:44.456  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2021-01-10 01:52:44.559  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b639b40f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:52:44.575  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:52:44.581  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:52:44.584  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:52:44.970  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2021-01-10 01:52:45.096  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2021-01-10 01:52:45.097  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2021-01-10 01:52:45.153  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-01-10 01:52:45.153  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1345 ms
+2021-01-10 01:52:45.513  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2021-01-10 01:52:45.516  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-10 01:52:45.516  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-10 01:52:45.648  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-01-10 01:52:45.656  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-01-10 01:52:45.715  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2021-01-10 01:52:45.717  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-01-10 01:52:45.718  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2021-01-10 01:52:45.824  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2021-01-10 01:52:46.525  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-10 01:52:46.641  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2021-01-10 01:52:46.869  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2021-01-10 01:52:46.885 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table `order` drop foreign key FK_m6q2ofkj1g5aobtb2p00ajpqg
+2021-01-10 01:52:46.886 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventory_api.order' doesn't exist
+2021-01-10 01:52:46.890 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table `product_order` drop foreign key FK_5uw5nxqovigv7mf1gmbos1rl8
+2021-01-10 01:52:46.890 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventory_api.product_order' doesn't exist
+2021-01-10 01:52:46.893 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table `product_order` drop foreign key FK_sf5yp37b7qt63qqoq25f82lpu
+2021-01-10 01:52:46.893 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventory_api.product_order' doesn't exist
+2021-01-10 01:52:47.267  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2021-01-10 01:52:47.684  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@51b03e3d: startup date [Sun Jan 10 14:52:43 PST 2021]; root of context hierarchy
+2021-01-10 01:52:47.730  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.updateCustomer(com.promineotech.inventoryManagement.entity.Customer,java.lang.Long)
+2021-01-10 01:52:47.730  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomers()
+2021-01-10 01:52:47.730  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomer(java.lang.Long)
+2021-01-10 01:52:47.730  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2021-01-10 01:52:47.730  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.createCustomer(com.promineotech.inventoryManagement.entity.Customer)
+2021-01-10 01:52:47.731  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.updateOrder(com.promineotech.inventoryManagement.entity.Order,java.lang.Long)
+2021-01-10 01:52:47.731  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2021-01-10 01:52:47.731  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.deleteProduct(java.lang.Long)
+2021-01-10 01:52:47.731  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.createProduct(com.promineotech.inventoryManagement.entity.Product)
+2021-01-10 01:52:47.732  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.getProducts()
+2021-01-10 01:52:47.732  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.updateProduct(com.promineotech.inventoryManagement.entity.Product,java.lang.Long)
+2021-01-10 01:52:47.733  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2021-01-10 01:52:47.733  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-10 01:52:47.752  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:52:47.752  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:52:47.774  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:52:47.862  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-01-10 01:52:47.882  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-10 01:52:47.886  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-01-10 01:52:47.894  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2021-01-10 01:52:47.905  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2021-01-10 01:52:47.907  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] c.p.i.App                                : Started App in 4.269 seconds (JVM running for 6.567)
+2021-01-10 01:53:24.940  INFO DESKTOP-KABRR1S
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-10 01:53:24.940  INFO DESKTOP-KABRR1S
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-10 01:53:24.954  INFO DESKTOP-KABRR1S
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2021-01-10 01:54:03.949  INFO DESKTOP-KABRR1S
+			--- [       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@51b03e3d: startup date [Sun Jan 10 14:52:43 PST 2021]; root of context hierarchy
+2021-01-10 01:01:43.918  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] c.p.i.App                                : Starting App on DESKTOP-KABRR1S with PID 2952 (C:\Users\dunge\eclipse-workspace\inventoryManagement\target\classes started by dunge in C:\Users\dunge\eclipse-workspace\inventoryManagement)
+2021-01-10 01:01:43.940  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@42c7da95: startup date [Sun Jan 10 15:01:43 PST 2021]; root of context hierarchy
+2021-01-10 01:01:44.317  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2021-01-10 01:01:44.617  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2021-01-10 01:01:44.719  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c017387f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:01:44.735  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:01:44.741  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:01:44.744  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:01:45.115  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2021-01-10 01:01:45.191  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2021-01-10 01:01:45.192  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2021-01-10 01:01:45.299  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-01-10 01:01:45.300  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1362 ms
+2021-01-10 01:01:45.667  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2021-01-10 01:01:45.670  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-10 01:01:45.671  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-10 01:01:45.808  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-01-10 01:01:45.819  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-01-10 01:01:45.878  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2021-01-10 01:01:45.880  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-01-10 01:01:45.882  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2021-01-10 01:01:45.991  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2021-01-10 01:01:46.705  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-10 01:01:46.816  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2021-01-10 01:01:47.030  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2021-01-10 01:01:47.484  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2021-01-10 01:01:47.765  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@42c7da95: startup date [Sun Jan 10 15:01:43 PST 2021]; root of context hierarchy
+2021-01-10 01:01:47.936  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomer(java.lang.Long)
+2021-01-10 01:01:47.937  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.createCustomer(com.promineotech.inventoryManagement.entity.Customer)
+2021-01-10 01:01:47.937  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.updateCustomer(com.promineotech.inventoryManagement.entity.Customer,java.lang.Long)
+2021-01-10 01:01:47.937  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomers()
+2021-01-10 01:01:47.937  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2021-01-10 01:01:47.938  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2021-01-10 01:01:47.938  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.updateOrder(com.promineotech.inventoryManagement.entity.Order,java.lang.Long)
+2021-01-10 01:01:47.938  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.getProducts()
+2021-01-10 01:01:47.938  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.deleteProduct(java.lang.Long)
+2021-01-10 01:01:47.939  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.updateProduct(com.promineotech.inventoryManagement.entity.Product,java.lang.Long)
+2021-01-10 01:01:47.939  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.createProduct(com.promineotech.inventoryManagement.entity.Product)
+2021-01-10 01:01:47.939  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2021-01-10 01:01:47.940  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-10 01:01:47.955  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:01:47.955  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:01:47.977  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:01:48.062  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-01-10 01:01:48.082  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-10 01:01:48.087  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-01-10 01:01:48.095  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2021-01-10 01:01:48.106  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2021-01-10 01:01:48.108  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] c.p.i.App                                : Started App in 4.341 seconds (JVM running for 6.64)
+2021-01-10 01:05:57.854  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] c.p.i.App                                : Starting App on DESKTOP-KABRR1S with PID 11340 (C:\Users\dunge\eclipse-workspace\inventoryManagement\target\classes started by dunge in C:\Users\dunge\eclipse-workspace\inventoryManagement)
+2021-01-10 01:05:57.876  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f14d9e4: startup date [Sun Jan 10 15:05:57 PST 2021]; root of context hierarchy
+2021-01-10 01:05:58.245  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2021-01-10 01:05:58.519  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2021-01-10 01:05:58.620  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$461f1149] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:05:58.636  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:05:58.643  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:05:58.647  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:05:59.024  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2021-01-10 01:05:59.099  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2021-01-10 01:05:59.150  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2021-01-10 01:05:59.210  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-01-10 01:05:59.210  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1336 ms
+2021-01-10 01:05:59.606  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2021-01-10 01:05:59.610  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-10 01:05:59.610  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-10 01:05:59.744  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-01-10 01:05:59.752  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-01-10 01:05:59.807  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2021-01-10 01:05:59.808  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-01-10 01:05:59.809  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2021-01-10 01:05:59.921  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2021-01-10 01:06:00.630  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-10 01:06:00.742  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2021-01-10 01:06:00.957  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2021-01-10 01:06:01.423  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2021-01-10 01:06:01.707  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f14d9e4: startup date [Sun Jan 10 15:05:57 PST 2021]; root of context hierarchy
+2021-01-10 01:06:01.894  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomer(java.lang.Long)
+2021-01-10 01:06:01.895  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.updateCustomer(com.promineotech.inventoryManagement.entity.Customer,java.lang.Long)
+2021-01-10 01:06:01.895  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomers()
+2021-01-10 01:06:01.895  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.createCustomer(com.promineotech.inventoryManagement.entity.Customer)
+2021-01-10 01:06:01.895  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2021-01-10 01:06:01.896  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.updateOrder(com.promineotech.inventoryManagement.entity.Order,java.lang.Long)
+2021-01-10 01:06:01.896  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2021-01-10 01:06:01.896  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.deleteProduct(java.lang.Long)
+2021-01-10 01:06:01.896  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.getProducts()
+2021-01-10 01:06:01.897  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.updateProduct(com.promineotech.inventoryManagement.entity.Product,java.lang.Long)
+2021-01-10 01:06:01.897  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.createProduct(com.promineotech.inventoryManagement.entity.Product)
+2021-01-10 01:06:01.898  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-10 01:06:01.898  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2021-01-10 01:06:01.914  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:06:01.914  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:06:01.935  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:06:02.024  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-01-10 01:06:02.044  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-10 01:06:02.049  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-01-10 01:06:02.056  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2021-01-10 01:06:02.069  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2021-01-10 01:06:02.070  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] c.p.i.App                                : Started App in 4.37 seconds (JVM running for 6.73)
+2021-01-10 01:06:21.089  INFO DESKTOP-KABRR1S
+			--- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-10 01:06:21.089  INFO DESKTOP-KABRR1S
+			--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-10 01:06:21.103  INFO DESKTOP-KABRR1S
+			--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2021-01-10 01:07:53.390  INFO DESKTOP-KABRR1S
+			--- [       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f14d9e4: startup date [Sun Jan 10 15:05:57 PST 2021]; root of context hierarchy
+2021-01-10 01:11:44.579  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] c.p.i.App                                : Starting App on DESKTOP-KABRR1S with PID 17140 (C:\Users\dunge\eclipse-workspace\inventoryManagement\target\classes started by dunge in C:\Users\dunge\eclipse-workspace\inventoryManagement)
+2021-01-10 01:11:44.601  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8146e0: startup date [Sun Jan 10 15:11:44 PST 2021]; root of context hierarchy
+2021-01-10 01:11:44.981  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2021-01-10 01:11:45.263  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2021-01-10 01:11:45.363  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8fcdbb35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:11:45.378  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:11:45.385  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:11:45.388  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:11:45.769  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2021-01-10 01:11:45.848  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2021-01-10 01:11:45.849  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2021-01-10 01:11:45.958  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-01-10 01:11:45.958  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1359 ms
+2021-01-10 01:11:46.321  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2021-01-10 01:11:46.323  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-10 01:11:46.323  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-10 01:11:46.451  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-01-10 01:11:46.458  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-01-10 01:11:46.511  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2021-01-10 01:11:46.512  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-01-10 01:11:46.513  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2021-01-10 01:11:46.613  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2021-01-10 01:11:47.186 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.t.j.p.ConnectionPool                 : Unable to create initial connections of pool.
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:704)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:638)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:141)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:115)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:102)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:126)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcServicesImpl.java:279)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:124)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:111)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:234)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:206)
+	at org.hibernate.cfg.Configuration.buildTypeRegistrations(Configuration.java:1887)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1845)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:687)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:967)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:956)
+	at com.promineotech.inventoryManagement.App.main(App.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.maven.RunMojo$LaunchRunner.run(RunMojo.java:418)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-10 01:11:47.212  WARN DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.e.j.i.JdbcServicesImpl               : HHH000342: Could not obtain connection to query metadata : Access denied for user 'root'@'localhost' (using password: YES)
+2021-01-10 01:11:47.220  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-10 01:11:47.226  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.e.j.i.LobCreatorBuilder              : HHH000422: Disabling contextual LOB creation as connection was null
+2021-01-10 01:11:47.334  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2021-01-10 01:11:47.562  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2021-01-10 01:11:47.576 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.t.j.p.ConnectionPool                 : Unable to create initial connections of pool.
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:704)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:638)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:141)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:115)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:102)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:126)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.<init>(DatabaseExporter.java:52)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:368)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:305)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:294)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:517)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1859)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:687)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:967)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:956)
+	at com.promineotech.inventoryManagement.App.main(App.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.maven.RunMojo$LaunchRunner.run(RunMojo.java:418)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-10 01:11:47.604 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000231: Schema export unsuccessful
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:704)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:638)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:141)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:115)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:102)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:126)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.<init>(DatabaseExporter.java:52)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:368)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:305)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:294)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:517)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1859)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:687)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:967)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:956)
+	at com.promineotech.inventoryManagement.App.main(App.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.maven.RunMojo$LaunchRunner.run(RunMojo.java:418)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-10 01:11:47.635  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2021-01-10 01:11:47.911  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8146e0: startup date [Sun Jan 10 15:11:44 PST 2021]; root of context hierarchy
+2021-01-10 01:11:47.956  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomer(java.lang.Long)
+2021-01-10 01:11:47.956  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2021-01-10 01:11:47.956  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomers()
+2021-01-10 01:11:47.957  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.createCustomer(com.promineotech.inventoryManagement.entity.Customer)
+2021-01-10 01:11:47.957  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.updateCustomer(com.promineotech.inventoryManagement.entity.Customer,java.lang.Long)
+2021-01-10 01:11:47.957  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2021-01-10 01:11:47.957  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.updateOrder(com.promineotech.inventoryManagement.entity.Order,java.lang.Long)
+2021-01-10 01:11:47.958  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.createProduct(com.promineotech.inventoryManagement.entity.Product)
+2021-01-10 01:11:47.958  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.getProducts()
+2021-01-10 01:11:47.958  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.updateProduct(com.promineotech.inventoryManagement.entity.Product,java.lang.Long)
+2021-01-10 01:11:47.958  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.deleteProduct(java.lang.Long)
+2021-01-10 01:11:47.959  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-10 01:11:47.959  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2021-01-10 01:11:47.974  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:11:47.975  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:11:47.996  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:11:48.223  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-01-10 01:11:48.242  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-10 01:11:48.247  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-01-10 01:11:48.256  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2021-01-10 01:11:48.267  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2021-01-10 01:11:48.269  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] c.p.i.App                                : Started App in 3.843 seconds (JVM running for 6.154)
+2021-01-10 01:13:07.354  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] c.p.i.App                                : Starting App on DESKTOP-KABRR1S with PID 11060 (C:\Users\dunge\eclipse-workspace\inventoryManagement\target\classes started by dunge in C:\Users\dunge\eclipse-workspace\inventoryManagement)
+2021-01-10 01:13:07.377  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2480e012: startup date [Sun Jan 10 15:13:07 PST 2021]; root of context hierarchy
+2021-01-10 01:13:07.750  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2021-01-10 01:13:08.024  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2021-01-10 01:13:08.127  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7b4fc94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:13:08.141  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:13:08.148  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:13:08.151  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:13:08.531  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2021-01-10 01:13:08.608  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2021-01-10 01:13:08.609  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2021-01-10 01:13:08.718  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-01-10 01:13:08.718  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1343 ms
+2021-01-10 01:13:09.076  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2021-01-10 01:13:09.078  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-10 01:13:09.079  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-10 01:13:09.210  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-01-10 01:13:09.218  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-01-10 01:13:09.275  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2021-01-10 01:13:09.277  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-01-10 01:13:09.278  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2021-01-10 01:13:09.385  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2021-01-10 01:13:10.081  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-10 01:13:10.192  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2021-01-10 01:13:10.407  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2021-01-10 01:13:10.421 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table `order` drop foreign key FK_m6q2ofkj1g5aobtb2p00ajpqg
+2021-01-10 01:13:10.422 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventorydb.order' doesn't exist
+2021-01-10 01:13:10.425 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table `product_order` drop foreign key FK_5uw5nxqovigv7mf1gmbos1rl8
+2021-01-10 01:13:10.426 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventorydb.product_order' doesn't exist
+2021-01-10 01:13:10.429 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table `product_order` drop foreign key FK_sf5yp37b7qt63qqoq25f82lpu
+2021-01-10 01:13:10.429 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventorydb.product_order' doesn't exist
+2021-01-10 01:13:10.781  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2021-01-10 01:13:11.075  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2480e012: startup date [Sun Jan 10 15:13:07 PST 2021]; root of context hierarchy
+2021-01-10 01:13:11.280  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomer(java.lang.Long)
+2021-01-10 01:13:11.281  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomers()
+2021-01-10 01:13:11.281  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.updateCustomer(com.promineotech.inventoryManagement.entity.Customer,java.lang.Long)
+2021-01-10 01:13:11.281  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2021-01-10 01:13:11.281  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.createCustomer(com.promineotech.inventoryManagement.entity.Customer)
+2021-01-10 01:13:11.282  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.updateOrder(com.promineotech.inventoryManagement.entity.Order,java.lang.Long)
+2021-01-10 01:13:11.282  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2021-01-10 01:13:11.282  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.getProducts()
+2021-01-10 01:13:11.282  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.deleteProduct(java.lang.Long)
+2021-01-10 01:13:11.282  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.updateProduct(com.promineotech.inventoryManagement.entity.Product,java.lang.Long)
+2021-01-10 01:13:11.282  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.createProduct(com.promineotech.inventoryManagement.entity.Product)
+2021-01-10 01:13:11.283  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-10 01:13:11.283  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2021-01-10 01:13:11.301  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:13:11.302  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:13:11.326  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:13:11.426  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-01-10 01:13:11.445  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-10 01:13:11.450  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-01-10 01:13:11.458  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2021-01-10 01:13:11.469  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2021-01-10 01:13:11.471  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] c.p.i.App                                : Started App in 4.27 seconds (JVM running for 6.575)
+2021-01-10 01:14:06.139  INFO DESKTOP-KABRR1S
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-10 01:14:06.139  INFO DESKTOP-KABRR1S
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-10 01:14:06.157  INFO DESKTOP-KABRR1S
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2021-01-10 01:15:33.542  INFO DESKTOP-KABRR1S
+			--- [       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2480e012: startup date [Sun Jan 10 15:13:07 PST 2021]; root of context hierarchy
+2021-01-10 01:17:15.503  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] c.p.i.App                                : Starting App on DESKTOP-KABRR1S with PID 2044 (C:\Users\dunge\eclipse-workspace\inventoryManagement\target\classes started by dunge in C:\Users\dunge\eclipse-workspace\inventoryManagement)
+2021-01-10 01:17:15.527  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@24034b20: startup date [Sun Jan 10 15:17:15 PST 2021]; root of context hierarchy
+2021-01-10 01:17:15.898  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2021-01-10 01:17:16.169  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2021-01-10 01:17:16.272  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$595456e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:17:16.287  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:17:16.293  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:17:16.296  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-10 01:17:16.657  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2021-01-10 01:17:16.734  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2021-01-10 01:17:16.735  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2021-01-10 01:17:16.845  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-01-10 01:17:16.846  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1321 ms
+2021-01-10 01:17:17.193  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2021-01-10 01:17:17.195  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-10 01:17:17.196  INFO DESKTOP-KABRR1S
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-10 01:17:17.321  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-01-10 01:17:17.329  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-01-10 01:17:17.381  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2021-01-10 01:17:17.383  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-01-10 01:17:17.384  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2021-01-10 01:17:17.484  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2021-01-10 01:17:18.181  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-10 01:17:18.288  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2021-01-10 01:17:18.504  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2021-01-10 01:17:18.518 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table order drop foreign key FK_m6q2ofkj1g5aobtb2p00ajpqg
+2021-01-10 01:17:18.519 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order drop foreign key FK_m6q2ofkj1g5aobtb2p00ajpqg' at line 1
+2021-01-10 01:17:18.523 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table product_order drop foreign key FK_5uw5nxqovigv7mf1gmbos1rl8
+2021-01-10 01:17:18.523 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventory_api.product_order' doesn't exist
+2021-01-10 01:17:18.526 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table product_order drop foreign key FK_sf5yp37b7qt63qqoq25f82lpu
+2021-01-10 01:17:18.526 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventory_api.product_order' doesn't exist
+2021-01-10 01:17:18.534 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: drop table if exists order
+2021-01-10 01:17:18.534 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1
+2021-01-10 01:17:18.618 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: create table order (id bigint not null auto_increment, estimated_delivery tinyblob, invoice_amount double precision not null, ordered tinyblob, status integer, customer_id bigint, primary key (id))
+2021-01-10 01:17:18.619 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (id bigint not null auto_increment, estimated_delivery tinyblob, invoice_a' at line 1
+2021-01-10 01:17:18.673 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table order add constraint FK_m6q2ofkj1g5aobtb2p00ajpqg foreign key (customer_id) references customer (id)
+2021-01-10 01:17:18.673 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order add constraint FK_m6q2ofkj1g5aobtb2p00ajpqg foreign key (customer_id) refe' at line 1
+2021-01-10 01:17:18.676 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table product_order add constraint FK_5uw5nxqovigv7mf1gmbos1rl8 foreign key (product_id) references order (id)
+2021-01-10 01:17:18.677 ERROR DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (id)' at line 1
+2021-01-10 01:17:18.727  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2021-01-10 01:17:19.007  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@24034b20: startup date [Sun Jan 10 15:17:15 PST 2021]; root of context hierarchy
+2021-01-10 01:17:19.213  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.updateCustomer(com.promineotech.inventoryManagement.entity.Customer,java.lang.Long)
+2021-01-10 01:17:19.213  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomers()
+2021-01-10 01:17:19.214  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2021-01-10 01:17:19.214  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomer(java.lang.Long)
+2021-01-10 01:17:19.214  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.createCustomer(com.promineotech.inventoryManagement.entity.Customer)
+2021-01-10 01:17:19.214  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.updateOrder(com.promineotech.inventoryManagement.entity.Order,java.lang.Long)
+2021-01-10 01:17:19.214  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2021-01-10 01:17:19.215  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.createProduct(com.promineotech.inventoryManagement.entity.Product)
+2021-01-10 01:17:19.215  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.getProducts()
+2021-01-10 01:17:19.215  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.deleteProduct(java.lang.Long)
+2021-01-10 01:17:19.215  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.updateProduct(com.promineotech.inventoryManagement.entity.Product,java.lang.Long)
+2021-01-10 01:17:19.216  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-10 01:17:19.216  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2021-01-10 01:17:19.232  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:17:19.232  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:17:19.254  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-10 01:17:19.342  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-01-10 01:17:19.361  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-10 01:17:19.366  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-01-10 01:17:19.373  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2021-01-10 01:17:19.384  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2021-01-10 01:17:19.386  INFO DESKTOP-KABRR1S
+			--- [ment.App.main()] c.p.i.App                                : Started App in 4.047 seconds (JVM running for 6.379)
+2021-01-10 01:18:53.255  INFO DESKTOP-KABRR1S
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-10 01:18:53.255  INFO DESKTOP-KABRR1S
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-10 01:18:53.269  INFO DESKTOP-KABRR1S
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
